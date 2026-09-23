@@ -1,0 +1,16 @@
+{
+  "name": "m1-uncrackable-l1",
+  "version": "1.0.0",
+  "main": "frida-hook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "frida-compile": "^19.0.5",
+    "frida-java-bridge": "^7.0.13"
+  }
+}

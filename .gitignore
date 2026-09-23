@@ -1,0 +1,26 @@
+# 依赖
+node_modules/
+
+# 反编译生成目录
+jadx-out/
+apktool-out/
+
+# 日志
+*.log
+
+# 调试用临时脚本
+diag.js
+mini.js
+mini-esm.js
+probe.js
+frida-verify.js
+run_diag.py
+run_frida.py
+run_probe.py
+
+# 调试用编译产物（可用 npx frida-compile 重新生成）
+diag.bundle.js
+diag.iife.js
+frida-verify.bundle.js
+mini-esm.iife.js
+mini.iife.js
